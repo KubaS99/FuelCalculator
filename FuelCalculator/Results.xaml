@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FuelCalculator.Results"
+             Title="Results">
+    <VerticalStackLayout
+            Spacing="5"
+            Padding="5"
+            VerticalOptions="Start"
+            HorizontalOptions="Fill">
+        <Border Stroke="#000000" StrokeThickness="1" StrokeShape="RoundRectangle 40,0,0,40" BackgroundColor="White">
+            <Label x:Name="fuelPriceLabel" FontSize="20" Margin="10,0,0,0"/>
+        </Border>
+        <Border Stroke="#000000" StrokeThickness="1" StrokeShape="RoundRectangle 40,0,0,40" BackgroundColor="White">
+            <Label x:Name="pricePer100KmLabel" FontSize="20" Margin="10,0,0,0"/>
+        </Border>
+        <Border Stroke="#000000" StrokeThickness="1" StrokeShape="RoundRectangle 40,0,0,40" BackgroundColor="White">
+            <Label x:Name="travelCostLabel" FontSize="20" Margin="10,0,0,0"/>
+        </Border>
+        <Border Stroke="#000000" StrokeThickness="1" StrokeShape="RoundRectangle 40,0,0,40" BackgroundColor="White">
+            <Label x:Name="personCostLabel" FontSize="20" Margin="10,0,0,0"/>
+        </Border>
+    </VerticalStackLayout>
+</ContentPage>

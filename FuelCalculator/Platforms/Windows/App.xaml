@@ -1,0 +1,9 @@
+﻿<maui:MauiWinUIApplication
+    x:Class="FuelCalculator.WinUI.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    RequestedTheme="Light"
+    xmlns:maui="using:Microsoft.Maui"
+    xmlns:local="using:FuelCalculator.WinUI">
+
+</maui:MauiWinUIApplication>
